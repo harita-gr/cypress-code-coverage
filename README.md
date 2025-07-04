@@ -1,5 +1,8 @@
 # 📊 Cypress Code Coverage Setup
 
+<img width="1265" alt="image" src="https://github.com/user-attachments/assets/5c241856-87e9-4dac-afad-b6d570da07b7" />
+
+
 This repository demonstrates how to set up **code coverage in Cypress** using the official `@cypress/code-coverage` plugin and `babel-plugin-istanbul`. 
 
 It includes a simple **Frontend Single Page Application (SPA)** called **Expense Tracker**, built with React. We have written **end-to-end (E2E) tests using Cypress**, and integrated code coverage reporting to visualize which parts of the application code are executed during test runs.
