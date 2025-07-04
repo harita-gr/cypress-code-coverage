@@ -21,7 +21,7 @@
    ],
    "run_settings": {
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "build-name",
+      "build_name": "cypress-testing-code-coverage",
       "parallels": 1,
       "specs": "cypress/e2e/**/*.cy.js",
       "ignore_files": "",
@@ -40,6 +40,7 @@
    },
    "tunnel_settings": {
       "tunnel": true,
-      "tunnel_name": null
+      "tunnel_name": "cypress-code-coverage"
+
    }
 }
