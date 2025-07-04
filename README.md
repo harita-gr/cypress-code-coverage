@@ -152,16 +152,18 @@ The generated report will be available at `coverage/index.html`.
 ```
   "tunnel_settings": {
      "tunnel": true,
+     "tunnel_name": "react-native-cypress"
       ...
   }
 ```
 
 This section describes how your test environment connects, potentially through a secure tunnel.
 
-tunnel: A boolean (true/false) indicating whether a secure tunnel should be established for your test run. 
+-   **`tunnel`**:  A boolean (true/false) indicating whether a secure tunnel should be established for your test run. 
         - Setting this to `false` allows your test to run in local grid.
         - Setting this to `true` allows your test to run in LambdaTest Cloud.
-
+        
+-  **`tunnel_name`**: An optional, custom name for your tunnel. When set to null, a default name or dynamically generated name will typically be used. Providing a name can be helpful for identifying specific tunnels, especially when running multiple tunnels concurrently.
 
 
 ### 2. Run the tests
