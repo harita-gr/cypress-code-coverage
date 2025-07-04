@@ -22,7 +22,7 @@
    "run_settings": {
       "reporter_config_file": "base_reporter_config.json",
       "build_name": "cypress-testing-code-coverage",
-      "parallels": 1,
+      "parallels": 3,
       "specs": "cypress/e2e/**/*.cy.js",
       "ignore_files": "",
       "network": false,
